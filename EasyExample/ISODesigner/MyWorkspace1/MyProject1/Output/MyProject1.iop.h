@@ -7,7 +7,10 @@
 #define MASK_WIDTH                          480
 #define MASK_HEIGHT                         480
 #define WorkingSet_0                          0
+#define Macro_zurhauptseite                   1
+#define Macro_zurseite1                       2
 #define DataMask_Home                      1000
+#define DataMask_seite2                    1001
 #define Container_Gesamtzaehler            3000
 #define Container_Tageszaehler             3001
 #define SoftKeyMask_Home                   4000
@@ -17,12 +20,16 @@
 #define Button_PlusPlus                    6000
 #define Button_Reset_Gesamtzaehler         6001
 #define Button_Reset_Tageszaehler          6002
+#define Button_zurueck                     6003
+#define Button_seite1                      6004
 #define OutputString_PlusPlus             11000
 #define OutputString_Fasszaehler          11001
 #define OutputString_Reset_Gesamtzaehler  11002
 #define OutputString_Gesamtzaehler        11003
 #define OutputString_Tageszaehler         11004
 #define OutputString_Reset_Tageszaehler   11005
+#define OutputString_zurueck              11006
+#define OutputString_seite                11007
 #define OutputNumber_Tageszaehler         12000
 #define OutputNumber_Gesamtzaehler        12003
 #define Meter_Gesamtzaehler               17000
@@ -31,6 +38,7 @@
 #define LinearBargraph_Tageszaehler       18001
 #define NumberVariable_Tageszaehler       21000
 #define NumberVariable_Gesamtzaehler      21001
+#define FontAttributes_23000              23000
 #define FontAttributes_Default            23001
 #define FontAttributes_Button             23002
 #define ObjectPointer_Null2               27000
